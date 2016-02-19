@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Secure Login: Log In</title>
+    <title>Pubbly Publisher</title>
 	
 	<link href="styles.css" rel="stylesheet" type="text/css">
 	
@@ -13,16 +13,18 @@
 <div id="logo">
     <img id="logo2016" src="pubblylogo2016.svg">
 </div>
-
+<div id="dropbox">
+</div>
 
 <div id="logindesign"">
 	
 	<form action="../../../php/processLogin.php" method="post" name="processLogin">
-    <span style="color:#3a4d81; font-family:sans-serif; letter-spacing:1px; font-size:1.2em">Username</span>: <input id="username" type="text" name="username"/><br>
-    <span style="color:#3a4d81; font-family:sans-serif; letter-spacing:1px; font-size:1.2em">Password</span>: <input id="password" type="password"
-                     name="pass"
-                     id="pass"/>
-    <br><input id="submit" type="submit" value="Login"/>
+    <span style="color:#3a4d81; font-family:sans-serif; letter-spacing:1px; font-size:1.2em">Book ID</span>: <input id="bookid" type="text" name="bookid" placeholder="ID number from Pubbly application"/><br>
+    <span style="color:#3a4d81; font-family:sans-serif; letter-spacing:1px; font-size:1.2em">Book Title</span>: <input id="booktitle" type="booktitle" placeholder="Little Red Riding Hood"/>
+	<span style="color:#3a4d81; font-family:sans-serif; letter-spacing:1px; font-size:1.2em">Price (or FREE or DEMO/passcode)</span>: <input id="price" type="text" name="price" placeholder="$4.99 or FREE or DEMO/1234 (passcode = 4 numbers)"/><br>
+    <br><input id="publish" type="submit" value="publish"/>
+    
+	
     </form>
     
 </div>

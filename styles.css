@@ -25,26 +25,44 @@
 	
 	input {
 		border:2px solid #91bd49;
-		height:50px;
-		width:300px;
+		height:30px;
+		width:500px;
 		border-radius:5px;
-		margin:20px;
+		margin:10px;
 	}
 	
-	#username {
-		font-size:2em;
+	
+	#dropbox {
+		background-image: url("placementimage400.png");
+		background-repeat:no-repeat;
+		clear:both;
+		float:left;
+		border:2px solid #91bd49;
+		height:400px;
+		width:400px;
+		border-radius:5px;
+		margin:0px 20px 0px 100px;
+	}
+	#bookid {
+		font-size:1em;
 		color:#e36324;
 		padding-left:5px;
 		letter-spacing:1px;
 	}
-	#password {
-		font-size:2em;
+	#price {
+		font-size:1em;
+		color:#e36324;
+		padding-left:5px;
+		letter-spacing:1px;
+	}
+	#booktitle {
+		font-size:1em;
 		color:#e36324;
 		padding-left:5px;
 		letter-spacing:1px;
 	}
 	
-	#submit {
+	#publish {
 		width:100px;
 		height:55px;
 		border:1px solid #8867ac;
@@ -54,7 +72,7 @@
 		letter-spacing:1px;
 		text-transform:uppercase;
 	}
-	#submit:hover {
+	#publish:hover {
 		width:100px;
 		height:55px;
 		border:3px solid #91bd49;
